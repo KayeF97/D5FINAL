@@ -1,0 +1,22 @@
+.container div{
+    display:inline-block;
+}
+
+.container div:nth-child(2n){
+    border-color: red;
+
+
+}
+
+.container div:nth-of-type(odd) span:nth-of-type(even){
+    color: green;
+}    
+
+.container div:nth-last-of-type(9) :nth-last-of-type(1){
+    color:blue;
+}
+.container div:nth-last-of-type(5) :not(:nth-last-of-type(1)){
+    color:yellow;
+}
+
+       
