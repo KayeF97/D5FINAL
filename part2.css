@@ -19,4 +19,34 @@
     color:yellow;
 }
 
+.container{
+    position: relative;
+}       
+
+span:first-of-type{
+position:absolute;
+top: 100%;
+padding-left: 2%;
+}
+
+span:nth-child(2){
+    position: absolute;
+    bottom: 100%;
+    padding-left: 2%;
+}
+
+.container div:nth-child(1) span:last-of-type{
+    position:absolute;
+    right: 100%;
+    top: 50%;
+    padding-right: 5px;
+}
+
+.container{
+    font-size: 0;
+}
+
+.container div{
+    font-size: 1rem;
+}
        
